@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException, Depends, Body
 from fastapi.middleware.cors import CORSMiddleware
+from decouple import config
 import requests
 
 app = FastAPI()
