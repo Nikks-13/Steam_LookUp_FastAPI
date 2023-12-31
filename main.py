@@ -8,7 +8,7 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:3000",
-    "https://nixx-discord-lookup.netlify.app",
+    "https://nixx-steam-lookup.netlify.app",
     # Add any other allowed origins
 ]
 
